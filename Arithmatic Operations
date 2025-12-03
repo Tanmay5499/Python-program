@@ -1,0 +1,16 @@
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+print("\n--- Arithmetic Operations ---")
+print("Addition: ", a + b)
+print("Subtraction: ", a - b)
+print("Multiplication: ", a * b)
+
+if b != 0:
+    print("Division: ", a / b)
+    print("Modulus: ", a % b)
+    print("Floor Division: ", a // b)
+else:
+    print("Division, Modulus and Floor Division not possible (b = 0)")
+
+print("Exponent (a**b): ", a ** b)
